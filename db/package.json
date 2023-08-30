@@ -1,0 +1,37 @@
+{
+  "name": "@senka/db",
+  "version": "1.0.2",
+  "description": "Senka Db ",
+  "main": "./src/build/index.cjs",
+  "module": "./src/dist/index.mjs",
+  "types": "./src/typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages/db",
+    "directory": "db"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/db/README.md",
+  "keywords": [
+    "db",
+    "senka",
+    "senka.db",
+    "jsondb",
+    "db.json",
+    "database",
+    "senkadatabase",
+    "senkajs",
+    "senka.database",
+    "senka.json",
+    "senkajson",
+    "jsondatabase",
+    "basicdb"
+  ],
+  "author": "SereSatka",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.5.6"
+  }
+}

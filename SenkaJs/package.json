@@ -1,0 +1,46 @@
+{
+  "name": "senkajs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/build/index.js",
+  "module": "./src/dist/index.js",
+  "types": "./src/typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages/SenkaJs",
+    "directory": "SenkaJs"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/SenkaJs/README.md",
+  "keywords": [
+    "SenkaJs",
+    "SenkaLogger",
+    "Discordjs",
+    "Discord.js",
+    "discord.js",
+    "discordjs",
+    "discord",
+    "discordbot",
+    "botmaker",
+    "basicdiscordjs",
+    "discordjsbasic",
+    "basiccreatebot",
+    "discordbot",
+    "discordbotmaker"
+  ],
+  "author": "SeneSatka",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@senka/db": "^1.0.2",
+    "@senka/logger": "^1.0.8",
+    "@senka/systeminfo": "^1.0.7",
+    "discord.js": "^14.13.0",
+    "string-colorizer": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6"
+  }
+}

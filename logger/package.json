@@ -1,0 +1,36 @@
+{
+  "name": "@senka/logger",
+  "version": "1.0.8",
+  "description": "SenkaLogger. Simple colorized console logger",
+  "main": "./src/build/index.cjs",
+  "module": "./src/dist/index.mjs",
+  "types": "./src/typings/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages/logger",
+    "directory": "logger"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/logger/README.md",
+  "keywords": [
+    "Logger",
+    "Colorized Console Logger",
+    "Color",
+    "SenkaLogger",
+    "ColorizedLogger",
+    "Colorized",
+    "Log",
+    "Console log",
+    "Senka"
+  ],
+  "author": "SeneSatka",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.5.4"
+  },
+  "dependencies": {
+    "string-colorizer": "^1.0.5"
+  }
+}

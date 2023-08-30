@@ -1,0 +1,34 @@
+{
+  "name": "@senka/systeminfo",
+  "version": "1.0.9",
+  "description": "System info",
+  "main": "./src/build/index.cjs",
+  "types": "./src/typings/index.d.ts",
+  "module": "./src/dist/index.mjs",
+  "scripts": {
+    "build": "tsc  -p tsconfig.esm.json && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages/systemInfo",
+    "directory": "systemInfo"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/systemInfo/README.md",
+  "keywords": [
+    "systemInfo",
+    "osInfo",
+    "os",
+    "Information",
+    "system"
+  ],
+  "author": "SeneSatka",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "os": "^0.1.2",
+    "string-colorizer": "^1.0.5",
+    "systeminformation": "^5.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6"
+  }
+}

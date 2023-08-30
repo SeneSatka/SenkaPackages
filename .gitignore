@@ -1,0 +1,7 @@
+node_modules
+test.js
+Test
+src
+package-lock.json
+.vscode
+database
