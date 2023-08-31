@@ -1,6 +1,6 @@
 {
   "name": "@senka/logger",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "SenkaLogger. Simple colorized console logger",
   "main": "./src/build/index.cjs",
   "module": "./src/dist/index.mjs",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SeneSatka/SenkaPackages/logger",
+    "url": "https://github.com/SeneSatka/SenkaPackages/tree/main/logger",
     "directory": "logger"
   },
-  "homepage": "https://github.com/SeneSatka/SenkaPackages/logger/README.md",
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/tree/main/logger#readme",
   "keywords": [
     "Logger",
     "Colorized Console Logger",

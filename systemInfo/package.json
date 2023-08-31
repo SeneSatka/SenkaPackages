@@ -1,6 +1,6 @@
 {
   "name": "@senka/systeminfo",
-  "version": "1.0.9",
+  "version": "1.1.2",
   "description": "System info",
   "main": "./src/build/index.cjs",
   "types": "./src/typings/index.d.ts",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SeneSatka/SenkaPackages/systemInfo",
+    "url": "https://github.com/SeneSatka/SenkaPackages/tree/main/systemInfo",
     "directory": "systemInfo"
   },
-  "homepage": "https://github.com/SeneSatka/SenkaPackages/systemInfo/README.md",
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/tree/main/systemInfo#readme",
   "keywords": [
     "systemInfo",
     "osInfo",

@@ -1,6 +1,6 @@
 {
   "name": "@senka/db",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Senka Db ",
   "main": "./src/build/index.cjs",
   "module": "./src/dist/index.mjs",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SeneSatka/SenkaPackages/db",
+    "url": "https://github.com/SeneSatka/SenkaPackages/tree/main/db/",
     "directory": "db"
   },
-  "homepage": "https://github.com/SeneSatka/SenkaPackages/db/README.md",
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/tree/main/db#readme",
   "keywords": [
     "db",
     "senka",

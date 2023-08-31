@@ -1,4 +1,4 @@
-# <center> SenkaLogger</center>
+# <center> SenkaSystemInfo</center>
 
 ## Usage
 
@@ -11,11 +11,12 @@ import { getSystemInfo, logSystemLogoAndInfo } from "@senka/systeminfo";
 await getSystemInfo().then((data) => console.log(data));
 /* Example:
  {
-  os: 'Microsoft Windows 11 Pro',
-  version: '10.0.22621',
-  arch: 'x64',
-  platform: 'Windows',
-  ram: '16GB'
+    os: data.distro,
+    version: data.release,
+    arch: data.arch,
+    platform: data.platform,
+    totalram: `${Math.round(totalmem() / 1024 / 1024 / 1024)}GB`,
+    freeram: `${Math.round(freemem() / 1024 / 1024 / 1024)}GB`,
 }
  */
 logSystemLogoAndInfo();
@@ -26,7 +27,7 @@ logSystemLogoAndInfo();
 ⠀   ⣼⣿⡿⠿⠛⠻⠿⣿⣿⡇⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀      Arch: x64
 ⠀    ⠉⠀⠀⠀ ⠀⠀⠀⠈⠁⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⠇       Platform: Windows
 ⠀  ⣠⣴⣶⣿⣿⣿⣷⣶⣤⠀⠀⠀⠈⠉⠛⠛⠛⠉⠉⠀⠀⠀       Computer: Scripter
-⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣶⣦⣄⣀⣀⣀⣤⣤⣶⠀⠀⠀⠀     RAM: 16GB
+⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣶⣦⣄⣀⣀⣀⣤⣤⣶⠀⠀⠀⠀     Used Ram:: 54%
   ⣾⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀
   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀
 ⢠⣿⡿⠿⠛⠉⠉⠉⠛⠿⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀

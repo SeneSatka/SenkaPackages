@@ -1,4 +1,4 @@
-# <center> SenkaLogger</center>
+# <center> SenkaDb</center>
 
 ## Usage
 
