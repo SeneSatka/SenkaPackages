@@ -1,8 +1,10 @@
 {
   "name": "@senka/discord-colorizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord ansi colorizer",
   "main": "./src/build/index.cjs",
+  "module": "./src/dist/index.mjs",
+  "types": "./src/typings/index.d.ts",
   "scripts": {
     "build": "tsc  -p tsconfig.esm.json && tsc"
   },

@@ -1,4 +1,4 @@
-export const discordColor = {
+export const colorizer = {
   build: (text: string) => {
     return `\`\`\`ansi\n${text}\n\`\`\``;
   },
