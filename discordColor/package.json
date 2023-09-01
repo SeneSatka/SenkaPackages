@@ -1,6 +1,6 @@
 {
   "name": "@senka/discord-colorizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Discord ansi colorizer",
   "main": "./src/build/index.cjs",
   "module": "./src/dist/index.mjs",
@@ -8,6 +8,12 @@
   "scripts": {
     "build": "tsc  -p tsconfig.esm.json && tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages/tree/main/DiscordColor",
+    "directory": "discordColor"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/tree/main/DiscordColor#readme",
   "keywords": [
     "Discord",
     "DiscordColorizer",
