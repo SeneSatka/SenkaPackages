@@ -1,0 +1,13 @@
+{
+  "name": "text-to-ascii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/build/commonjs/index.js",
+  "module": "./src/build/module/index.js",
+  "types": "./src/typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SeneSatka <senesatka@gmail.com>",
+  "license": "Apache-2.0"
+}
