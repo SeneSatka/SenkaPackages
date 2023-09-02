@@ -453,7 +453,9 @@ const letters = {
   ],
   " ": [" ", " ", " ", " ", " ", " ", " "],
 };
-export function ascii(texts: string, size: "1" | "2" | "3", type: "normal") {
+export function ascii(
+  texts: string /*  size: "1" | "2" | "3", type: "normal" */
+) {
   for (const text of texts.split("\n")) {
     for (let i = 0; i < 7; i++) {
       let row = "";
