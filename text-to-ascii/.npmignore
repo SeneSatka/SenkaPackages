@@ -1,0 +1,9 @@
+node_modules
+ts
+tsconfig.json
+tsconfig.esm.json
+test.json
+package-lock.json
+.gitignore
+.vscode
+test.js
