@@ -1,6 +1,6 @@
 {
-  "name": "text-to-ascii",
-  "version": "1.0.0",
+  "name": "@senka/text-to-ascii",
+  "version": "1.0.1",
   "description": "",
   "main": "./src/build/commonjs/index.js",
   "module": "./src/build/module/index.js",

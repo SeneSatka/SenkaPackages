@@ -5,8 +5,8 @@ import { ascii } from "@senka/text-to-ascii";
 
 const { ascii } = require("@senka/text-to-ascii");
 
-ascii("Hello\nWorld");
-
+const text = ascii("Hello\nWorld");
+console.log(text);
 /* OUTPUT
 
 ##     ## ######## ##       ##        #######  

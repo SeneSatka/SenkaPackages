@@ -455,7 +455,8 @@ const letters = {
 };
 export function ascii(
   texts: string /*  size: "1" | "2" | "3", type: "normal" */
-) {
+): string {
+  let returnText = "";
   for (const text of texts.split("\n")) {
     for (let i = 0; i < 7; i++) {
       let row = "";
@@ -468,8 +469,9 @@ export function ascii(
         else row += eval(`letters["${letter.toLowerCase()}"][i]`) + " ";
       }
 
-      console.log(row);
+      returnText += row + "\n";
     }
-    console.log("\n");
+    returnText += "\n";
   }
+  return returnText;
 }
