@@ -1,0 +1,42 @@
+{
+  "name": "@senka/discord.js-canvas",
+  "version": "1.0.0",
+  "description": "Simple canvas module",
+  "main": "./src/build/commonjs/index.js",
+  "module": "./src/build/module/index.js",
+  "types": "./src/typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/SenkaPackages.git#main"
+  },
+  "keywords": [
+    "Canvas",
+    "discordcanvas",
+    "discordwelcome",
+    "discordjs",
+    "discordjscanvas",
+    "discordwelcomesystem",
+    "simplecanvas",
+    "canvaswelcome",
+    "canvaslevel",
+    "discordlevelcanvas",
+    "canvasdiscordlevel",
+    "canvasdiscordwelcome"
+  ],
+  "author": "SeneSatka <senesatka@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SeneSatka/SenkaPackages/issues"
+  },
+  "homepage": "https://github.com/SeneSatka/SenkaPackages/tree/main/discord.js-canvas#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "discord.js": "^14.13.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}

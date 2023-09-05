@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "lib": ["ESNext"],
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "discord.js": ["./node_modules/discord.js/*"]
+    },
+    "baseUrl": "./ts",
+    "target": "ESNext",
+    // "module": "NodeNext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./src/build/module",
+    "declarationDir": "./src/typings"
+  },
+  "include": ["ts/**/*.ts"],
+  "exclude": ["node_modules"],
+  "rootDir": "./ts"
+}
