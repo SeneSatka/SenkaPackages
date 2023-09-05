@@ -62,6 +62,7 @@ export class welcomeMessageImage {
     this.texts = [];
     this.card = false;
     this.transparentLayer = false;
+
     if (auto) {
       this.setUsername("auto");
       this.setAvatar("auto");
@@ -184,6 +185,7 @@ export class welcomeMessageImage {
       const background = await loadImage(this.card.backgroundUrl);
       const canvas = createCanvas(width, height),
         ctx = canvas.getContext("2d");
+
       ctx.beginPath();
       ctx.roundRect(0, 0, width, height, [50]);
       ctx.closePath();
@@ -283,7 +285,8 @@ export class welcomeMessageImage {
       }
       if (typeof this.username == "object") {
         ctx.save();
-        ctx.font = `${this.username.fontSize} Sans-Serif`;
+
+        ctx.font = `${this.username.fontSize} Handjet-Medium`;
         ctx.fillStyle = this.username.color;
         let x,
           y,
@@ -376,7 +379,8 @@ export class welcomeMessageImage {
             .replaceAll("{username}", name)
             .replaceAll("{guild}", this.member.guild.name)
             .replaceAll("{memberCount}", `${this.member.guild.memberCount}`);
-          ctx.font = `${_text.fontSize} Sans-Serif`;
+
+          ctx.font = `${_text.fontSize} Handjet-Medium`;
           ctx.fillStyle = _text.color ?? "white";
           let txtHeight = 0;
           for (const t of text.split("\n")) {
